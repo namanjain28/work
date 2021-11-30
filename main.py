@@ -67,18 +67,10 @@ def add_cafe():
         for i in range(1,data_len_end):
             final_id.append(int(id_list[i]))
         id += (max(final_id))
-
-
-        # f = request.files['file']
-        
-        
         profile = request.files['file']
-        name1 = f'/static/user{id}.png'
+        name1 = (f'static/user{id}.png')
         name = name1
         profile.save((name))
-        
-
-
         df = pd.DataFrame({'Name': [Name],
                     'Age': [Age],
                     'Email': [Email],
