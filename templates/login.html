@@ -1,0 +1,16 @@
+<!-- developed by Naman Jain contact at namanjain28work@gmail.com or visit https://naman-jain-profile.netlify.app/ -->
+
+
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+Login
+{% endblock %}
+
+{% block content %}
+<div class="container">
+		<h1>Login</h1>
+        {{ wtf.quick_form(form) }}
+    </div>
+{% endblock %}

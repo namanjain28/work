@@ -1,0 +1,75 @@
+<!-- developed by Naman Jain contact at namanjain28work@gmail.com or visit https://naman-jain-profile.netlify.app/ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<style>
+  body{background-color: rgb(207, 218, 250); padding: 1rem;}
+  .Table-padd{padding: 1rem;}
+  
+  </style>
+
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-8">
+
+          <h1>Connect Friends</h1>
+
+          <form action="/add_done" method="post" enctype="multipart/form-data">
+            <label for="Name">Your Name</label>
+            <input class="form-control" type="text" id="Name" name="Name" placeholder="Your Name">
+            <br>
+
+            <input type = "file" name = "file" />
+            <br>
+            <br>
+
+            <label for="Age">Your Age</label>
+            <input class="form-control" type="text" id="Age" name="Age" placeholder="Your Age">
+            <br>
+
+            <label for="Email">Your Email</label>
+            <input class="form-control" type="text" id="Email" name="Email" placeholder="Your mail address">
+            <br>
+
+            <label for="Interests">Your Interests/hobbies</label>
+            <input class="form-control" type="text" id="Interests" name="Interests" placeholder="Your Interests">
+            <br>
+
+            <label for="Gender">Your Gender</label>
+            <select class="form-control" id="Gender" name="Gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Others">Others</option>
+            </select>
+            <br>
+
+            <label for="Friend_of">Who you are Friend With </label>
+            <select class="form-control" id="Friend_of" name="Friend_of">
+              <option value="Admin1">Admin1</option>
+            </select>
+            <br>
+
+            
+            <input herf="/add_done" type="submit"  class="btn btn-outline-success" value="Submit">
+            <br>
+            <br>
+          </form>
+
+        <p class="space-above"><a href="/">Home</a></p>
+        </div>
+      </div>
+    </div>
+</body>
+
