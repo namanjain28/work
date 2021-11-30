@@ -73,7 +73,8 @@ def add_cafe():
         
         
         profile = request.files['file']
-        name = (f"/static/user{id}.png")
+        name1 = f'/static/user{id}.png'
+        name = name1
         profile.save((name))
         
 
