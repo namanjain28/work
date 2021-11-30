@@ -1,0 +1,5 @@
+Name,Age,Email,Gender,Interests,Friend_of,id
+user1,20,user1@gmail.com,Female,user1hobbies,Admin1,1
+user2,22,user2@gmail.com,Male,user2hobbies,Admin2,2
+user3,25,user3@gmail.com,other,user3hobbies,Admin3,3
+user4,10,user4@gmail.com,Female,user4hobbies,Admin4,4
